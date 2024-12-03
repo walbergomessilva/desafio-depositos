@@ -1,0 +1,99 @@
+/* Configuração geral do body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do container principal */
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo da logo */
+.logo {
+    display: block;
+    max-width: 120px;
+    margin: 0 auto 20px auto;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo da tabela de botões */
+.table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos botões */
+.number {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Botões ao passar o mouse */
+.number:hover {
+    background-color: #e0e0e0;
+}
+
+/* Botão selecionado */
+.number.selected {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+/* Frase final */
+.final-message {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Container do valor total e do ícone */
+.total-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Caixa do valor total */
+.total-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4caf50;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Estilo do ícone de olho */
+.eye-icon {
+    width: 30px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.eye-icon:hover {
+    opacity: 0.8;
+}
